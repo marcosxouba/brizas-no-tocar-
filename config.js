@@ -1,7 +1,7 @@
-const ownerNumber = ["557187645787@s.whatsapp.net"] 
+const ownerNumber = ["+34671350075@s.whatsapp.net"] 
 // mude somente o numero e não tire o @s.whatsapp.net
 
-const OriginalOwner = '557187645787' 
+const OriginalOwner = '+34671350075' 
 // mude para seu numero
 
 const gimagenotregister = true
@@ -11,9 +11,9 @@ const sgooglenotregister = true
 // quando não há comando registrado o bot procura uma pesquisa no google
 
 const msgwelcomeimg = (numero, groupname) => {
-    return `Seja bem-vindo ${numero}\n\nEscreve ${prefix}menu para lista de comandos`
+    return `Se bienvenido ${numero}\n\nEscribe ${prefix}menú para ver la lista de comandos`
 }
-//Texto de boas vindas na imagem quando welcome esta ativado
+//Welcome activado
 //Obs: não coloque o texto longo para a imagem não sumir
 
 const byemsgimg = (numero, groupname) => {
@@ -37,36 +37,36 @@ const cr = '𝐁𝐑𝐈𝐙𝐀𝐒 𝐁𝐎𝐓\n'
 const prefix = '!' 
 // prefixo
 
-const blockedmsg = '*😜 Seu número esta bloqueado, ou seja não ouvindo você 😜*'
+const blockedmsg = '*😜 Tu número está bloqueado😜*'
 // mensagem quando alguem bloqueado solicita um comando
 
-const blockedcmdmsg = '*🚫Este comando esta bloqueado contate o propitetário do bot para saber o pq🚫*'
+const blockedcmdmsg = '*🚫Este comando está bloqueado🚫*'
 // mensagem quando alguem solicita um comando bloqueado 
 
 // MENSAGENS DE BAN
 
-const banmsgtype = '*Corra membro comum, o ban estar próximo*'
+const banmsgtype = '*Serás eliminado por enviar contenido prohibido*'
 // mensagem de ban no anti tipos de mensagem
 
-const adminmsgtype = '*Tu é adm ent n vou te banir por mandar um tipo de mensagem proibida*'
+const adminmsgtype = '*Por ser admin no te eliminaré*'
 // mensagem de quando adm manda tipos de mensagens proibidas
 
-const banmsgporn = 'Hmmm pornozinho com antiporn ativado, ja sabe né...'
+const banmsgporn = 'Lástima, el antiporno está activado'
 // mensagem de ban no antiporn
 
-const adminmsgporn = '*Tu é adm ent n vou te banir por mandar porn*'
+const adminmsgporn = '*Tu eres admin, te perdonaré el enviar porno*'
 // mensagem de quando adm manda porn com antiporn ativado
 
-const banmsglink = 'Corra Membro comum, O ban está próximo...'
+const banmsglink = 'Corre!! Tu expulsión está cerca'
 // mensagem de ban no antilink
 
-const adminmsglink = 'Isso é um link amigo... ah é tu é adm ent pode kkkk 🙃'
+const adminmsglink = 'Eso es un enlace amigo... menos mal que eres admin 🙃'
 // mensagem de quando adm manda link
 
-const adminmsgpalavra = 'isso esta na lista das palavras proibidas pelo bot'
+const adminmsgpalavra = 'Esa palabra está prohibida'
 // mensagem de quando adm manda uma palavra proibida pelo bot
 
-const banmsgpalavra = 'Palavra proibida? Já sabe né'
+const banmsgpalavra = 'Adiós! aprende educación!'
 // mensagem de ban quando manda uma palavra proibida pelo bot
 
 const qnttravahardroleta = 2
@@ -76,11 +76,11 @@ const qnttravahardroleta = 2
 // MENSAGENS DE BOM DIA BOA TARDE E BOA NOITE
 
 const linkimgday = 'https://i.imgur.com/RR18JiI.jpg'
-const textmsgday = 'Ohayo gozaimasu, Onii-chan 👉👈'
+const textmsgday = 'Buen día para todos! 👉👈'
 // link e mensagem de bom dia
 
 const linkimgeve = 'https://i.ibb.co/bLXgcBW/lp-tarde-anime-by-hitsukinyan-db7fpqr-fullview.jpg'
-const textmsgeve = `Kon'nichiwa Onii-chan, aceite esse café ☕`
+const textmsgeve = `Buena tarde! Que aproveche el café ☕`
 // link e mensagem de boa tarde
 
 const linkimgnig = 'https://i.ibb.co/VJCd34F/EKvo372-X0-AEd-Hz.jpg'
@@ -89,42 +89,42 @@ const textmsgnig = 'Konbanwa Onii-chan, espero que tenha tido um bom dia ☺️'
 
 // MENSAGENS DE ERRO
 
-const msgerr = 'Deu erro, tente novamente :/'
+const msgerr = 'Error, inténtalo de nuevo :/'
 // mensagem de erro
 
-const notregister = `*Comando não registrado, escreva ${prefix}menu para ver a lista de comandos*`
+const notregister = `*Comando no registrado, escriba ${prefix}menu para ver la lista de comandos*`
 
 // MENSAGENS DE AUTOREPLY
 
 const botlindo = 'Bakaaaa 😣😣'
 const linkbotlindo = 'https://photos1.iorbix.com/00/00/00/00/02/72/43/64/C--6tZwaASQH-b.jpg'
-const botfeio = 'Tu parece um sirgueijo, um caranguejo amassado 😡'
-const cadebot = 'Me chamou onii-chan 👉👈?'
-const botfdp = 'Te foder rapaz, te deitar na porrada quando tiver dormindo'
-const botgostoso = 'Arigato go sai masu 😳👉👈'
-const botfofo = 'Arigato go sai masu 😳👉👈'
-const botbaianor = 'Convidei sua placa-mãe pra minha rede seu corno'
-const botcorno = 'Vai te foder, jogador de ff, comprador de pack do pézinho'
-const botputa = 'Senhora sua mãe 😡'
-const botgay = 'Falou o manja rola 😡'
-const botviado = 'Falou o manja rola 😡'
-const numbotfeio = 'senhora sua mãe 😡'
+const botfeio = 'Te ves como un cangrejo, un cangrejo triturado 😡'
+const cadebot = 'Me has llamado 👉👈?'
+const botfdp = 'Vete a la mierda chico, que te pateen el culo cuando estés dormido'
+const botgostoso = 'Gracias 😳👉👈'
+const botfofo = 'Gracias 😳👉👈'
+const botbaianor = 'Invité a tu placa madre a mi red, tu cornudo'
+const botcorno = 'Vete a la mierda, jugador ff, comprador de paquete de pies'
+const botputa = 'Señora tu madre 😡'
+const botgay = 'Dijo que el hombre rueda😡'
+const botviado = 'Dijo que el hombre rueda 😡'
+const numbotfeio = 'Señora tu madre 😡'
 // KEYS
 
 // MENSAGENS DE EXCLUSIVIDADE
 let mess = {
-    wait: '⌛ Aguarde um pouco... ⌛',
-    success: '✔️ Sucesso! ✔️',
+    wait: '⌛ Espera un poco... ⌛',
+    success: '✔️ Hecho! ✔️',
     error: {
-        stick: '❌ Falha, ocorreu um erro ao converter a imagem em um adesivo ❌',
+        stick: '❌ Hubo un error ❌',
         Iv: '❌ Link inválido ❌'
     },
     only: {
-        group: '❌ Este comando só pode ser usado em grupos! ❌',
-        ownerG: '❌ Este comando só pode ser usado pelo grupo proprietário! ❌',
-        ownerB: '❌ Este comando só pode ser usado pelo número proprietário! ❌',
-        admin: '❌ SILÊNCIO MEMBRO COMUM VC N TEM MORAL PRA USAR ESSE COMANDO ❌',
-        Badmin: '❌ Este comando só pode ser usado quando o bot se torna administrador! ❌'
+        group: '❌ Este comando sólo puede ser usado en grupos! ❌',
+        ownerG: '❌ Este comando sólo puede ser usado por el propietario del grupo! ❌',
+        ownerB: '❌ Este comando sólo puede ser usado por el número propietario! ❌',
+        admin: '❌ SILENCIO USUARIO, NO TIENES PODER PARA USAR EL COMANDO ❌',
+        Badmin: '❌ Recuerda hacerme administrador! ❌'
     }
 }
 
@@ -134,7 +134,7 @@ const vcard = 'BEGIN:VCARD\n'
 + 'VERSION:3.0\n' 
 + 'FN:Meu criador^~^\n' 
 + 'ORG:Ian;\n' 
-+ 'TEL;type=CELL;type=VOICE;waid=557187645787:+55 71 8764-5787\n' 
++ 'TEL;type=CELL;type=VOICE;waid=671350075:+34 671 35 00 75\n' 
 + 'END:VCARD'
 //vcard do propietário, mude os numeros de acordo com o formato que
 //ele corresponde
